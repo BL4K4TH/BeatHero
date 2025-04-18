@@ -1,0 +1,2 @@
+Utilize esse comando no terminal para compilar o programa:
+g++ main.cpp -o BeatHero $(pkg-config --cflags --libs opencv4 sdl2 SDL2_mixer)
